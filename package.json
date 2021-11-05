@@ -1,0 +1,24 @@
+{
+	"name": "tailwindcss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nomanme/TailwindCss.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nomanme/TailwindCss/issues"
+	},
+	"homepage": "https://github.com/nomanme/TailwindCss#readme",
+	"devDependencies": {
+		"tailwindcss": "^2.2.19"
+	}
+}
